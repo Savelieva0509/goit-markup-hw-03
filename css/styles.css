@@ -80,11 +80,27 @@ body {
     margin: -1px;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato; 
+}
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    outline: 2px solid green;
+}
 
 /* --------------------------STUDIO PAGE---------------------- */
 
 /* --------------------------HEADER-------------------------- */
+
+.page-header {
+    border: 1px solid #ECECEC;
+}
 
 .logo, .footer-logo,.logo-accent {
     font-family: 'Raleway', sans-serif;
@@ -124,16 +140,18 @@ body {
 
 .hero {
     background: var(--background-accent-color);
+    text-align: center;
+    padding: 200px 0;
 }
 
 .hero-title {  
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
+    margin-bottom: 30px;
 }
 
 .hero-button {
@@ -147,6 +165,11 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background: var(--accent-color);
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 200px;
+    text-align: center;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -155,6 +178,7 @@ body {
 
 /* --------------------------FEATURES-------------------------- */
 
+
 .features-subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -162,6 +186,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--title-text-color);
+    margin-bottom: 10px;
 }
 .features-text {
     font-size: 14px;
@@ -180,14 +205,26 @@ body {
     color: var(--title-text-color);
 }
 
+.services-title {
+    margin-bottom: 50px;
+}
+
 /* --------------------------TEAM-------------------------- */
 
 .team {
     background-color:var(--background-grey-color);
 }
 
+.team-title {
+    margin-bottom: 50px;   
+}
+
 .team-item {
     background: var(--primary-white-color);
+}
+
+.team-photo {
+    margin-bottom: 30px;
 }
 
 .team-name {
@@ -197,6 +234,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-text-color);
+    margin-bottom: 10px;
 }
 .team-position {
     font-size: 16px;
@@ -209,6 +247,7 @@ body {
 
 footer {   
     background-color: var(--background-accent-color);
+    padding: 60px 0;
 } 
 
 .footer-logo {
@@ -217,6 +256,8 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color:var(--primary-white-color);
+    margin-bottom: 20px;
+    display: inline-block;
 }
 .contact-map,
 .contacts-email,
@@ -227,13 +268,23 @@ footer {
     letter-spacing: 0.03em;
     color:var(--accent-white-color);
     font-style: normal;
+    display: inline-block;
 } 
+
+.contacts-email {
+    margin-bottom: 9px;
+}
 
 .contact-map {
     color: var(--primary-white-color);
+    margin-bottom: 9px;
 }
 
 /* --------------------------PORTFOLIO PAGE---------------------- */
+
+.filter-list {
+    margin-bottom: 50px;
+}
 
 .filter-button {
 font-weight: 500;
@@ -259,12 +310,18 @@ border-radius: 4px;
 .portfolio-item {
     background: var(--primary-white-color);
 }
+
+.portfolio-photo {
+    margin-bottom: 20px;
+}
+
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
