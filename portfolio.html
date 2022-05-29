@@ -11,19 +11,20 @@
 <body>
 <!-- Шапка сайта -->
 <header class="page-header">
-    <div class="container">
-        <nav>
+    <div class="container header-nav">
+        <nav class="nav">
             <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
 
             <ul class="nav-list list">
-                <li><a href="./index.html" class="nav-link link ">Студия</a></li>
-                <li><a href="./portfolio.html" class="nav-link link current">Портфолио</a></li>
-                <li><a href="" class="nav-link link">Контакты</a></li>
+                <li class="nav-item"><a href="./index.html" class="nav-link link current">Студия</a></li>
+                <li class="nav-item"><a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
+                <li class="nav-item"><a href="" class="nav-link link">Контакты</a></li>
             </ul>
         </nav>
         <ul class="contacts-list list">
-            <li><a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com </a></li>
-            <li><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
+            <li class="contact-item"><a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com
+                </a></li>
+            <li class="contact-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
         </ul>
     </div>
 </header>
@@ -50,59 +51,74 @@
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/poster.jpg" alt="Изображение постера с баскетболистами" width="370" class="portfolio-photo" >
-                    <h2 class="portfolio-subtitle link">Постер <span lang="en"> Orlean vs Golden Star</span> </h2>
+                     <div class="portfolio-content">
+                     <h2 class="portfolio-subtitle link">Постер <span lang="en"> Orlean vs Golden Star</span> </h2>
                     <p class="portfolio-text link">Дизайн</p>
+                </div>
                 </a>
             </li >
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/restoran.jpg" alt= "Превью приложения" width="370" class="portfolio-photo" >
+                    <div class="portfolio-content">
                     <h2 class="portfolio-subtitle link">Ресторан <span lang="en">Seafood</span></h2>
                     <p class="portfolio-text link" >Приложение</p>
+                    </div>
                 </a>
             </li>
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/prime.jpg" alt="Изображение наушников" width="370" class="portfolio-photo">
+                    <div class="portfolio-content">
                     <h2 class="portfolio-subtitle link">Проект <span lang="en">Prime</span></h2>
                     <p class="portfolio-text link" >Маркетинг</p>
+                    </div>
                 </a>
             </li>
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/boxes.jpg" alt="Превью приложения" width="370" class="portfolio-photo">
-                    <h2 class="portfolio-subtitle link">Проект <span lang="en">Boxes</span></h2>
-                    
-                    <p class="portfolio-text link">Приложение</p>
+                    <div class="portfolio-content">
+                        <h2 class="portfolio-subtitle link">Проект <span lang="en">Boxes</span></h2>
+                        <p class="portfolio-text link">Приложение</p>
+                    </div>
                 </a>
             </li>
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/inspiration.jpg" alt="Превью веб-сайта" width="370" class="portfolio-photo">
-                    <h2 class="portfolio-subtitle link" lang="en">Inspiration has no Borders</h2>
-                    <p class="portfolio-text link" >Веб-сайт</p>
-                </a>
+                    <div class="portfolio-content">
+                        <h2 class="portfolio-subtitle link" lang="en">Inspiration has no Borders</h2>
+                        <p class="portfolio-text link" >Веб-сайт</p>
+                </div>
+            </a>
             </li>
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/limited_adition.jpg" alt="Изображение глянцевого журнала" width="370" class="portfolio-photo">
-                    <h2 class="portfolio-subtitle link">Издание <span lang="en">Edition</span></h2>
-                    <p class="portfolio-text link">Дизайн</p>
-                </a>
+                    <div class="portfolio-content">   
+                        <h2 class="portfolio-subtitle link">Издание <span lang="en">Edition</span></h2>
+                        <p class="portfolio-text link">Дизайн</p>
+                 </div> 
+            </a>
             </li>
             <li class="portfolio-item">
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/lab.jpg" alt="Изображение логотипа компании" width="370" class="portfolio-photo">
-                    <h2 class="portfolio-subtitle link">Проект <span lang="en">LAB</span></h2>
-                    <p class="portfolio-text link">Маркетинг</p>
+                    <div class="portfolio-content">
+                        <h2 class="portfolio-subtitle link">Проект <span lang="en">LAB</span></h2>
+                        <p class="portfolio-text link">Маркетинг</p>
+                </div>
                 </a>
             </li>
             <li class="portfolio-item" >
                 <a href="" class="portfolio-link link">
                     <img src="./images/images.portfolio/growing_business.jpg" alt="Превью приложения" width="370" class="portfolio-photo">
-                    <h2 class="portfolio-subtitle link" lang="en">Growing Business</h2>
-                    <p class="portfolio-text link">Приложение</p>
-                </a>
+                    <div class="portfolio-content">
+                        <h2 class="portfolio-subtitle link" lang="en">Growing Business</h2>
+                        <p class="portfolio-text link">Приложение</p>
+                </div>
+            </a>
             </li>
         </ul>
         </div>
@@ -123,6 +139,7 @@
             </ul>
         </address>
     </div>
-</footer>  
+</footer>
 </body>
+
 </html>

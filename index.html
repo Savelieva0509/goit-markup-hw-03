@@ -16,7 +16,7 @@
     <!-- Шапка сайта -->
     <header class="page-header">
         <div class="container header-nav">
-        <!-- <nav class="nav"> -->
+        <nav class="nav">
             <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
 
             <ul class="nav-list list">
@@ -24,7 +24,7 @@
                 <li class="nav-item"><a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
                 <li class="nav-item"><a href="" class="nav-link link" >Контакты</a></li>
             </ul>
-        <!-- </nav> -->
+        </nav>
             <ul class="contacts-list list">
                 <li class="contact-item"><a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com </a></li>
                 <li class="contact-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
@@ -35,9 +35,11 @@
         <main>
         <!-- Герой -->
         <section class="hero">
+            <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero-button button">Заказать услугу</button>
-        </section>
+            </div>
+     </section>
 
         <!-- Преимущества -->
 
@@ -83,23 +85,31 @@
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
                 <li class="team-item"> <img src="./images/product-designer.jpg" alt="фото мужчины" width="270" class="team-photo">
-                     <h3 class="team-name">Игорь Демьяненко</h3>
-                     <p lang="en" class="team-position">Product Designer</p>
+                    <div class="team-content">
+                        <h3 class="team-name">Игорь Демьяненко</h3>
+                        <p lang="en" class="team-position">Product Designer</p>
+                    </div>
                 </li>
              
                 <li class="team-item"> <img src="./images/frontend-developer.jpg" alt="фото женщины" width="270" class="team-photo" >
-                    <h3 class="team-name">Ольга Репина</h3>
-                    <p lang="en"class="team-position">Frontend Developer</p>
+                    <div class="team-content">
+                        <h3 class="team-name">Ольга Репина</h3>
+                        <p lang="en"class="team-position">Frontend Developer</p>
+                </div>
                 </li>
                
                 <li class="team-item"> <img src="./images/marketing.jpg" alt="фото мужчины" width="270" class="team-photo" >
-                    <h3 class="team-name" >Николай Тарасов</h3>
-                    <p lang="en"class="team-position">Marketing</p>
+                    <div class="team-content">
+                        <h3 class="team-name" >Николай Тарасов</h3>
+                        <p lang="en"class="team-position">Marketing</p>
+                    </div>
                 </li>
               
                 <li class="team-item"> <img src="./images/ui-designer.jpg" alt="фото мужчины" width="270" class="team-photo" >
-                    <h3 class="team-name">Михаил Ермаков</h3>
-                    <p lang="en" class="team-position">UI Designer</p>
+                    <div class="team-content">
+                        <h3 class="team-name">Михаил Ермаков</h3>
+                        <p lang="en" class="team-position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </section>
