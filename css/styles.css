@@ -185,6 +185,8 @@ body {
 .hero {
     background: var(--background-accent-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
     }
 
 .hero .container {
@@ -282,6 +284,8 @@ body {
 
 .services-item > img {
     display: block;
+    height: auto;
+    min-width: 100%
 }
 
 /* --------------------------TEAM-------------------------- */
@@ -332,6 +336,12 @@ body {
     padding-bottom: 30px;
 }
 
+.team-photo  {
+    display: block;
+    height:auto;
+    min-width: 100%
+}
+
 /* --------------------------FOOTER-------------------------- */
 
 footer {   
@@ -363,13 +373,12 @@ footer {
     display: inline-block;
 } 
 
-.footer-email {
+.footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
 .footer-map {
     color: var(--primary-white-color);
-    margin-bottom: 9px;
 }
 
 /* --------------------------PORTFOLIO PAGE---------------------- */
